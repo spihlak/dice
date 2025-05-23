@@ -37,6 +37,12 @@ h1 {
 div#diceFace.df-1-dots {
     justify-content:center;
 }
+div#diceFace.df-2-dots .dot:first-child {
+    justify-content:start
+}
+div#diceFace.df-2-dots .dot:last-child {
+    justify-content:end
+}
 
 .dot {
     width: 1em;
